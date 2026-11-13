@@ -3,3 +3,12 @@
 .whatsapp-fixo{position:fixed;right:20px;bottom:20px;z-index:1000;display:inline-flex;align-items:center;gap:10px;background:#167d48;color:white!important;text-decoration:none;font-weight:700;padding:13px 19px;border-radius:999px;box-shadow:0 6px 22px rgba(0,0,0,.22);transition:transform .2s,background .2s}
 .whatsapp-fixo:hover,.whatsapp-fixo:focus-visible{background:#116a3d;transform:translateY(-2px)}
 @media(max-width:600px){.whatsapp-fixo{right:12px;bottom:12px;padding:12px 16px;font-size:14px}}
+
+/* Ícone oficial em vetor e botão de contato persistente */
+.whatsapp-fixo{background:#25d366;color:#fff!important;min-width:60px;min-height:60px;justify-content:center;padding:12px 18px;gap:8px}
+.whatsapp-fixo svg{width:31px;height:31px;display:block;flex-shrink:0}
+.whatsapp-fixo:hover,.whatsapp-fixo:focus-visible{background:#128c4a}
+.foto-apresentacao{display:grid;grid-template-columns:minmax(220px,350px) 1fr;gap:35px;align-items:center;padding-top:24px;padding-bottom:24px}
+.foto-pendente{min-height:290px;display:flex;align-items:center;justify-content:center;text-align:center;padding:25px;border:2px dashed #aab3bd;border-radius:16px;background:#e8eaf0;color:#596273;font-size:15px}
+.foto-sobre{max-width:340px;min-height:260px;float:right;margin:0 0 20px 25px}
+@media(max-width:650px){.foto-apresentacao{grid-template-columns:1fr}.foto-sobre{float:none;margin:0 0 20px}.whatsapp-fixo{width:60px;height:60px;border-radius:50%;padding:12px}.whatsapp-texto{display:none}}
